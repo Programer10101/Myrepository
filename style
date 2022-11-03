@@ -1,0 +1,8 @@
+git checkout -b style
+git status
+touch lib/style.css
+h1 {
+  color: red;
+}
+git add lib/style.css
+git commit -m "Added css stylesheet"
